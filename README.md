@@ -32,18 +32,17 @@ as SVG (in case an equivalent Material icon doesnʼt exist)
 - The toggle on each card element to turn the alarm on or off^
 - The title of the alarm is optional^
 - Each card element also shows:^
->[!NOTE]
-> - Next occurrence the alarm will trigger in the format “1d 4h 45min”^
-> - The weekdays the alarm will repeat on^
-> - Text that says what time to go to bed for 8 hours of sleep before the
 
 ```
-alarm: “Go to bed at XX:YYpm to get 8h of sleep”. Should only be
-shown when:
+Extended version requirements
+ - Next occurrence the alarm will trigger in the format “1d 4h 45min”^
+ - The weekdays the alarm will repeat on^
+ - Text that says what time to go to bed for 8 hours of sleep before the alarm: “Go to bed at XX:YYpm to get 8h of sleep”. Should only be shown when:
+ - The alarm is between 4 am and 10 am^
+ - The current time is more than 8 hours before the set alarm time^
 ```
 
-- The alarm is between 4 am and 10 am^
-- The current time is more than 8 hours before the set alarm time^
+![Your Alarms Simple](mocks/alarms_list_simple.png) ![Your Alarms Advanced](mocks/alarms_list_adv.png)
 
 ```
 Alarms - MVP Alarms - Extended
