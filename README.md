@@ -41,8 +41,7 @@ Extended version requirements
  - The alarm is between 4 am and 10 am^
  - The current time is more than 8 hours before the set alarm time^
 ```
-<img src="mocks/alarms_list_simple.png" alt="Your Alarms Simple" width="256">
-<img src="mocks/alarms_list_adv.png" alt="Your Alarms Advanced" width="256">
+<img src="mocks/alarms_list_simple.png" alt="Your Alarms Simple" width="256"> <img src="mocks/alarms_list_adv.png" alt="Your Alarms Advanced" width="256">
 
 ```
 Alarms - MVP Alarms - Extended
