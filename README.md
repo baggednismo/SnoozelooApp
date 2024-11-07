@@ -32,12 +32,10 @@ as SVG (in case an equivalent Material icon doesnʼt exist)
 - The toggle on each card element to turn the alarm on or off^
 - The title of the alarm is optional^
 - Each card element also shows:^
-  $${\color{orange}
-  - Next occurrence the alarm will trigger in the format “1d 4h 45min”^
 
-  - The weekdays the alarm will repeat on^
-  - Text that says what time to go to bed for 8 hours of sleep before the
-  }$$
+  $${\color{orange}- Next occurrence the alarm will trigger in the format “1d 4h 45min”^}$$
+  $${\color{orange}- The weekdays the alarm will repeat on^}$$
+  $${\color{orange}- Text that says what time to go to bed for 8 hours of sleep before the}$$
 ```
 alarm: “Go to bed at XX:YYpm to get 8h of sleep”. Should only be
 shown when:
